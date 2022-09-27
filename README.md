@@ -1,9 +1,9 @@
 # AuthTest
 
-#Introduction
+**Introduction**
 AuthSafe sdk helps us to detect suspicious activities in real time and provides device fingerprinting, behavioral analysis, and client-side event monitoring. 
 
-#Requirements
+**Requirements**
 
 minSdk version = 21 
 
@@ -15,7 +15,7 @@ ACCESS_FINE_LOCATION,
 
 ACCESS_COARSE_LOCATION  
 
-Step 1 >  Add the JitPack repository to your build file
+**Step 1 >**  Add the JitPack repository to your build file
 
 ```gradle
 
@@ -26,24 +26,7 @@ allprojects {
 		}
 	}
   ```
-Step 2 > Add the dependency
-
-```gradle
-dependencies {
-# AuthSafe
-
-Step 1 >  Add the JitPack repository to your build file
-
-```gradle
-
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-  ```
-Step 2 > Add the dependency
+**Step 2 >** Add the dependency
 
 ```gradle
 dependencies {
@@ -51,7 +34,7 @@ dependencies {
 	}
   ```
   
-Step 3 > Add secret key in your manifest file
+**Step 3 >** Add secret key in your manifest file
   ```
   <meta-data 
 
@@ -67,4 +50,7 @@ Step 3 > Add secret key in your manifest file
 ```
 AuthSafe.configure(this) 
 ```
+The AuthSafe SDK collects device fingerprints from the device and sends this data directly to Authsafe Dashboard.  
+
+**Screen Change Event: - ** In the screen change event Authsafe track your every screen transaction between screen open to close. 
 
