@@ -1,5 +1,20 @@
 # AuthTest
 
+#Introduction
+AuthSafe sdk helps us to detect suspicious activities in real time and provides device fingerprinting, behavioral analysis, and client-side event monitoring. 
+
+#Requirements
+
+minSdk version = 21 
+
+Internet permission 
+
+Location permission (optional) 
+
+ACCESS_FINE_LOCATION, 
+
+ACCESS_COARSE_LOCATION  
+
 Step 1 >  Add the JitPack repository to your build file
 
 ```gradle
@@ -15,7 +30,7 @@ Step 2 > Add the dependency
 
 ```gradle
 dependencies {
-# Library-Task
+# AuthSafe
 
 Step 1 >  Add the JitPack repository to your build file
 
@@ -36,8 +51,20 @@ dependencies {
 	}
   ```
   
-  That's it! 
-  Thank You !
-	}
+Step 3 > Add secret key in your manifest file
   ```
- 
+  <meta-data 
+
+    android:name="auth_safe_secret_key" 
+
+    android:value="@string/auth_secret" /> 
+  ```
+  
+  #Java
+  
+  // Place the below in your application class onCreate method 
+
+```
+AuthSafe.configure(this) 
+```
+
