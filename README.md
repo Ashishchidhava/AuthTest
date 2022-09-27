@@ -113,6 +113,19 @@ If permission is already granted the call the below method
 AuthSafe.trackLocation(location);
 ```
 
+
+Login Event: -For tracking login event you need to send the authafe token in your login request. 
+
+```
+//For form body
+key = "request_token" 
+value = AuthSafe.getRequestToken()); 
+
+//For raw data
+jsonObject.addProperty("request_token", AuthSafe.getRequestToken()); 
+
+```
+
 Thank you!
 Copyright@Authsafe.ai
 
