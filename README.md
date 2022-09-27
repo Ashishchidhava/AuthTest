@@ -41,7 +41,7 @@ dependencies {
     android:value="@string/auth_secret" /> 
   ```
   
-  Java
+  Java Implementation 
   
   // Place the below in your application class onCreate method 
 
@@ -114,7 +114,7 @@ AuthSafe.trackLocation(location);
 ```
 
 Thank you!
-
+Copyright@Authsafe.ai
 
 
 
