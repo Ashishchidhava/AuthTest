@@ -1,6 +1,6 @@
 # AuthTest
 
-**Introduction**
+**Description**
 AuthSafe sdk helps us to detect suspicious activities in real time and provides device fingerprinting, behavioral analysis, and client-side event monitoring. 
 
 **Requirements**
