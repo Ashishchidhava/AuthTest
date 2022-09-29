@@ -1,9 +1,10 @@
 # AuthTest
 
-**Description**
+**Description :-**
+
 AuthSafe sdk helps us to detect suspicious activities in real time and provides device fingerprinting, behavioral analysis, and client-side event monitoring. 
 
-**Requirements**
+**Requirements:-**
 
 minSdk version = 21 
 
@@ -14,6 +15,8 @@ Location permission (optional)
 ACCESS_FINE_LOCATION, 
 
 ACCESS_COARSE_LOCATION  
+
+**Getting Start:-**
 
 **Step 1 >**  Add the JitPack repository to your build file
 
