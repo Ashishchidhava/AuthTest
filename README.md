@@ -4,17 +4,14 @@
 
 AuthSafe sdk helps us to detect suspicious activities in real time and provides device fingerprinting, behavioral analysis, and client-side event monitoring. 
 
-**Requirements:-**
+**Configuretion Requirements:-**
 
 minSdk version = 21 
 
 Internet permission 
-
 Location permission (optional) 
 
-ACCESS_FINE_LOCATION, 
-
-ACCESS_COARSE_LOCATION  
+ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION  
 
 **Getting Start:-**
 
